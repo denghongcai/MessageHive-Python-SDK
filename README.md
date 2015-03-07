@@ -6,11 +6,11 @@ MessageHive-Python-SDK
 
 ###Installation
 1. Clone this repo
-1. Using **pypi** to meet the requirements
+2. Using **pypi** to meet the requirements
 ````bash
 pypi -r requirements.txt
 ```
-2. run
+3. run
 
 ````bash
 python pack.py
