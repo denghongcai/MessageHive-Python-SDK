@@ -10,10 +10,9 @@ MessageHive-Python-SDK
 ````bash
 pypi -r requirements.txt
 ```
-3. run
 
+and run
 ````bash
 python pack.py
 ````
-
 for test.
