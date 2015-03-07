@@ -46,16 +46,20 @@ class Packet:
         return msg
         
 if __name__ == "__main__":
-    msg = message_pb2.Container()
-    msg.MID = ""
-    msg.SID = "a"
-    msg.RID = "b"
-    msg.STIME = 11111111
-    msg.TYPE = 0
-    msg.BODY = "foo"
     
-    data = Packet.Pack(msg)
-    
-    msg = Packet.UnPack(data)
+    try:
+        msg = message_pb2.Container()
+        msg.MID = ""
+        msg.SID = "a"
+        msg.RID = "b"
+        msg.STIME = 11111111
+        msg.TYPE = 0
+        msg.BODY = "foo"
 
-    print msg
+        data = Packet.Pack(msg)
+
+        msg = Packet.UnPack(data)
+
+        print "All test passed"
+    except:
+        raise

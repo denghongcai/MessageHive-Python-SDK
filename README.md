@@ -5,8 +5,12 @@ MessageHive-Python-SDK
 **Python 2.6 and above**
 
 ###Installation
-1. You must install python-protobuf 2.6.1 using **pypi** or **easy_install**.
-2. Clone this repo and run
+1. Clone this repo
+1. Using **pypi** to meet the requirements
+````bash
+pypi -r requirements.txt
+```
+2. run
 
 ````bash
 python pack.py
