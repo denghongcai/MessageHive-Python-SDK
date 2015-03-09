@@ -8,7 +8,7 @@ MessageHive-Python-SDK
 1. Clone this repo
 2. Using **pypi** to meet the requirements
 ````bash
-pypi -r requirements.txt
+pip -r requirements.txt
 ```
 
 and run
